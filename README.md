@@ -7,8 +7,3 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/ryo33/convertable?style=social)
 
 Non-reflexive version of From and Into
-
-## TODO
-
-- [ ] Fill the description in Cargo.toml and README.md
-- [ ] Choose tags and categories in Cargo.toml
