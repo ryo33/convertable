@@ -99,29 +99,6 @@ mod tests {
         assert_eq!(actual, Ok(B(1)));
     }
 
-    // #[test]
-    // fn into_implies_convert_from() {
-    //     structs!();
-    //     impl Into<B> for A {
-    //         fn into(self) -> B {
-    //             B(self.0)
-    //         }
-    //     }
-    //     assert_eq!(B::convert_from(A(1)), B(1));
-    // }
-
-    // #[test]
-    // fn try_into_implies_try_convert_from() {
-    //     structs!();
-    //     impl TryInto<B> for A {
-    //         type Error = ();
-    //         fn try_into(self) -> Result<B, Self::Error> {
-    //             Ok(B(self.0))
-    //         }
-    //     }
-    //     assert_eq!(B::try_convert_from(A(1)), Ok(B(1)));
-    // }
-
     #[test]
     fn convert_into_implies_try_convert_from() {
         structs!();
